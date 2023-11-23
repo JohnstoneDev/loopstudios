@@ -4,21 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],  theme: {
     fontFamily : {
-      global : ['Inter', 'sans-serif'],
+      global : ['Alata', 'sans-serif'],
+      heading : ['Josefin Sans', 'sans-serif'],
     },
     fontSize : {
       'heading' : ['30px', {
           lineHeight : '40px',
           letterSpacing : '0px',
-          fontWeight : '700',
+          fontWeight : '300',
         }
       ],
-    'section' : ['20px', {
-        lineHeight : '32px',
-        letterSpacing : '0px',
-        fontWeight : '500',
-      }
-     ],
     'regular' : ['15px', {
         lineHeight : '28px',
         letterSpacing : '0px',
@@ -31,6 +26,12 @@ module.exports = {
       'tablet': '640px',
       'laptop': '1024px',
       'desktop': '1280px',
+    },
+    colors : {
+      'white' : 'hsl(0, 0%, 100%)',
+      'black' : 'hsl(0, 0%, 0%)',
+      'dark-gray': 'hsl(0, 0%, 55%)',
+      'very-dark-gray' : 'hsl(0, 0%, 41%)'
     },
     extend: {
     },

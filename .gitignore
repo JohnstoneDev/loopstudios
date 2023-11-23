@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 
+/loopstudios-landing-page-main
 package-lock.json
 
 # testing
