@@ -14,11 +14,11 @@
 
 @layer components {
   h1, h2, h3, h4, h5, h6 {
-    @apply uppercase font-semibold text-heading font-heading text-black
+    @apply uppercase font-semibold text-heading font-heading text-very-dark-gray
   }
 
   .app {
-    @apply text-regular font-global min-h-screen bg-white text-dark-gray
+    @apply text-regular font-global min-h-screen bg-white text-dark-gray leading-loose tracking-wider text-center tablet:text-left
   }
 }
 

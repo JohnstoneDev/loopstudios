@@ -8,8 +8,8 @@ module.exports = {
       heading : ['Josefin Sans', 'sans-serif'],
     },
     fontSize : {
-      'heading' : ['30px', {
-          lineHeight : '40px',
+      'heading' : ['40px', {
+          lineHeight : '45px',
           letterSpacing : '0px',
           fontWeight : '300',
         }
